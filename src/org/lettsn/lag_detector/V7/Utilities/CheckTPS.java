@@ -27,8 +27,7 @@ public class CheckTPS{
             return;
         }
 
-        Call.sendMessage(String.format("%s: Killing all units and payload sources due to low server TPS.", pluginMessageName));
-        removeAllPayloadSources();
-        killAllUnits();
+        Call.sendMessage(String.format("%s: Killing all potential lag sources due to low TPS.", pluginMessageName));
+        runAll();
     }
 }
