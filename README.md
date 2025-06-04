@@ -1,6 +1,6 @@
 # Lag Detector Plugin
 A plugin that detects whenever a server's TPS is too low. Whenever the server TPS goes below a threshold, 
-the plugin will kill all units and destroy all payload sources.
+the plugin will kill all units, destroy all payload sources, and destroy all turrets.
 
 # How To Install
 ## Release Jar (recommended | most stable)
@@ -11,7 +11,6 @@ the plugin will kill all units and destroy all payload sources.
 4. Configure the plugin to your pleasure (note that `minimumTPS` is the ONLY configuration available).
 
 ## Source (not recommended | least stable)
-oh boy...
 1. Ensure that you have installed JDK 17
 2. Clone the repository onto your local machine via git
 3. Open your terminal (or command prompt if you're on Windows)

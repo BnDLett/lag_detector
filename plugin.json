@@ -2,6 +2,6 @@
   "name": "Lag Detector",
   "author": "LSN",
   "main": "org.lettsn.lag_detector.Main",
-  "description": "A plugin that restarts the server whenever the TPS drops below a certain threshold.",
-  "version": "0.1.0"
+  "description": "A plugin that destroys lag sources whenever the TPS drops below a given threshold.",
+  "version": "0.2.0"
 }
