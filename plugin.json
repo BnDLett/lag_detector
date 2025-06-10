@@ -3,5 +3,5 @@
   "author": "LSN",
   "main": "org.lettsn.lag_detector.Main",
   "description": "A plugin that destroys lag sources whenever the TPS drops below a given threshold.",
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
